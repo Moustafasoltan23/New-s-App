@@ -1,6 +1,5 @@
 package com.example.mynews.data.model
 
-import android.adservices.topics.Topic
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.mynews.data.network.RetrtofitInstance
