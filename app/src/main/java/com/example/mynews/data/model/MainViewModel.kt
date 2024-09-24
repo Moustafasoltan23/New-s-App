@@ -15,7 +15,7 @@ class MainViewModel : ViewModel() {
 
     fun getNews(topic: String){
         viewModelScope.launch {
-            val response = api.Everytgingsapi(q = topic , apiKey = "55dba45065ca47d8b85f4a54fe32365a")
+            val response = api.everytgingsapi(q = topic , apiKey = "55dba45065ca47d8b85f4a54fe32365a")
             if (response.isSuccessful){
                 _newResponse.value = response.body()
             }

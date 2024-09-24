@@ -11,7 +11,7 @@ import retrofit2.http.Query
 
 interface ApiService {
 @GET("everything")
-suspend fun Everytgingsapi(@Query("q") q: String, @Query("apiKey") apiKey: String) : Response<NewsResponse>
+suspend fun everytgingsapi(@Query("q") q: String, @Query("apiKey") apiKey: String) : Response<NewsResponse>
 
 }
 
